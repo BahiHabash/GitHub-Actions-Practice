@@ -12,3 +12,9 @@ jobs:
     steps:
       - name: Print Welcome Message
         run: echo "Hello World"
+
+      - name: Checkout
+        uses: actions/checkout@v6.0.2
+
+      - name: Log Directory Files
+        run: ls
