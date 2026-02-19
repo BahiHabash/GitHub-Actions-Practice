@@ -17,4 +17,4 @@ jobs:
         uses: actions/checkout@v6.0.2
 
       - name: Log Directory Files
-        run: ls
+        run: ls lol
